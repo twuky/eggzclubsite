@@ -40,7 +40,7 @@ a:hover {
 
 #eggz-header img {
     justify-self: center;
-    width: 30vw;
+    width: 35vw;
     height: auto;
 }
 
@@ -52,8 +52,13 @@ a:hover {
 }
 
 #group-info {
+    margin-top: 5vh;
     width: 22vw;
+    max-width: 220px;
     float: left;
+    padding: 0.2em;
+    background-color: floralwhite;
+    border-radius: 0.2em;
 }
 
 #eggz-tagline {
