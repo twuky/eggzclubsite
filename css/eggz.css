@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'monofur';
+    src: URL('monofur.ttf') format('truetype');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: monofur;
+    font-size: 1.5em;
+    color: #1F1F55;
+}
+
+body {
+    background-color: #faaaaa;
+}
+
+a {
+    color: #faaaaa;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: aquamarine;
+}
+
+.content {
+    text-align: center;
+    width: 80vw;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+#eggz-header {
+    padding-top: 10vh;
+    align-self: center;
+}
+
+#eggz-header img {
+    justify-self: center;
+    width: 30vw;
+    height: auto;
+}
+
+#eggz-body {
+    width: 60vw;
+    height: auto;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+#group-info {
+    width: 22vw;
+    float: left;
+}
+
+#eggz-tagline {
+    width: 33vw;
+    float:right;
+}
+
+#l {
+    float: left;
+}
+
+#r {
+    float: right;
+}
