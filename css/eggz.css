@@ -26,6 +26,8 @@ a:hover {
 }
 
 .content {
+    display: flex;
+    flex-flow: column;
     text-align: center;
     width: 80vw;
     min-height: 100%;
