@@ -84,4 +84,18 @@ a:hover {
     .content {
         width: 90vw;
     }
+
+    #group-info {
+        width: 80%;
+        float: center;
+        padding: 0.2em;
+        background-color: floralwhite;
+        border-radius: 0.2em;
+    }
+
+    #eggz-tagline {
+        width: 80%;
+        float: center;
+    }
+
 }
