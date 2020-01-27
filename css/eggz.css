@@ -26,6 +26,7 @@ a:hover {
 }
 
 .content {
+    position: relative;
     display: flex;
     flex-flow: column;
     text-align: center;
@@ -69,6 +70,12 @@ a:hover {
     float:right;
 }
 
+#email {
+    bottom: 0;
+    float: bottom;
+    height: 10vh;
+}
+
 #l {
     float: left;
 }
@@ -86,8 +93,8 @@ a:hover {
     }
 
     #group-info {
-        width: 80%;
-        float: center;
+        width: 100%;
+        margin-right: 10%;
         padding: 0.2em;
         background-color: floralwhite;
         border-radius: 0.2em;
@@ -96,6 +103,8 @@ a:hover {
     #eggz-tagline {
         width: 80%;
         float: center;
+        text-align: center;
+        justify-self: center;
     }
 
 }
