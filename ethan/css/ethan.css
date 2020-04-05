@@ -12,8 +12,8 @@ html, body {
     font-family: monofur;
     font-size: large;
     color: #1F1F55;
-    background:#ececca;
-    
+    background-color:#ececca;
+    background: url('https://i.gifer.com/2iiH.gif');    
 }
 
 h1 {
