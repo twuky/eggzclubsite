@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'monofur';
+    src: URL('monofur.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'flow';
+    src: URL('flow-circle.otf') format('truetype');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: monofur;
+    font-size: large;
+    color: #1F1F55;
+    background: rgba(225, 223, 241, 1);
+    
+}
+
+a {
+    color: salmon;
+}
+
+.page-content {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.pane {
+    margin: 2em;
+    background: white;
+    box-shadow: 1em 1em #A7A5FF;
+    transition: box-shadow 0.5s;
+}
+
+.pane:hover {
+    box-shadow: 1.2em 1.2em #A7A5FF;
+}
+
+.content_zone {
+    padding: 2em;
+    display: block;
+}
+.links-hover {
+    display: inline-block;
+    padding: 0.5em;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, white 50%, salmon 50%);
+    transition: background-position 0.5s, color 0.5s;
+}
+.links-hover:hover, .links-hover:hover a {
+    background-position: 0 100%;
+    color: #baebae;
+    
+}
+
+.flow {
+    font-family: flow;
+}
+
+#main-profile {
+    max-width: 40%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+}
+
+#profile {
+    padding: 1em;
+}
+
+#links {
+    min-width: 50%;
+    float: right;
+    align-self: flex-end;
+}
+
+#tuckie-info {
+    padding: 0.5em;
+    height: auto;
+}
+
+#bio {
+    flex-grow: 8;
+}
+
+#creatures {
+    padding: 1em;
+    max-width: 200px;
+}
+
+@media only screen and (max-width: 900px) {
+    .page-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    #main-profile {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

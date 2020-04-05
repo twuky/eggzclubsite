@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'monofur';
+    src: URL('monofur.ttf') format('truetype');
+}
+
+html, body {
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+    border: 0;
+    font-family: monofur;
+    font-size: large;
+    color: #1F1F55;
+    background:#ececca;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: salmon;
+}
+
+.page-content {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.pane {
+    margin: 2em;
+    background: white;
+    box-shadow: 1em 1em #A7A5FF;
+    transition: box-shadow 0.5s;
+}
+
+.pane:hover {
+    box-shadow: 1.2em 1.2em #A7A5FF;
+}
+
+#profile {
+    padding: 1em;
+}
